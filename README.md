@@ -5,12 +5,12 @@ Created 7/7/2023
 One of many style guides for Roblox’s version of Lua, LuaU created by insfraud. These practices when writing your code can increase readability and help keep code consistent. 
 
 ## Table of Contents
-  [1. Naming Conventions](https://github.com/insfraud501/LuaU-Style-Guide#naming-conventions)
-  [2. Formatting and Indentation](https://github.com/insfraud501/LuaU-Style-Guide#formatting-and-indentation)
-  [3. Comments and Documentation](https://github.com/insfraud501/LuaU-Style-Guide#comments-and-documentation)
-  [4. Strings](https://github.com/insfraud501/LuaU-Style-Guide#strings)
-  [5. Classes](https://github.com/insfraud501/LuaU-Style-Guide#classes)
-  [6. Conditional Statements](https://github.com/insfraud501/LuaU-Style-Guide#conditional-statements)
+  1. [Naming Conventions](https://github.com/insfraud501/LuaU-Style-Guide#naming-conventions)
+  2. [Formatting and Indentation](https://github.com/insfraud501/LuaU-Style-Guide#formatting-and-indentation)
+  3. [Comments and Documentation](https://github.com/insfraud501/LuaU-Style-Guide#comments-and-documentation)
+  4. [Strings](https://github.com/insfraud501/LuaU-Style-Guide#strings)
+  5. [Classes](https://github.com/insfraud501/LuaU-Style-Guide#classes)
+  6. [Conditional Statements](https://github.com/insfraud501/LuaU-Style-Guide#conditional-statements)
 
 # Naming Conventions
 _Practices to follow when naming different variables and functions_
