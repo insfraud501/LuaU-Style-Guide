@@ -72,7 +72,7 @@ With anything that holds elements or objects seperated by a comma such as a tabl
 local table = { 1, 2, 3, 4, 5, }
 
 -- No
-local table = {1,2,3,4,5}
+local table = { 1, 2, 3, 4, 5 }
 ```
 
 Moreover, after the last element of a data structure or anything that has objects seperated by commas; a comma should be present, following a whitespace. An example that might help is:
@@ -118,6 +118,8 @@ Firstly: Brief description; what does the function do?
 Secondly: Talk about the arguments; what does it do with them?
 Finally: State what it returns.
 
+Another neccessitiy to include to further provide documentation about your function, is a return type hint.
+
 An small example would be this function which gives the player cash:
 ```lua
 --[[
@@ -125,7 +127,7 @@ An small example would be this function which gives the player cash:
     Specifically, adds the 'cashAmount' argument to their balance.
     Returns the updated cash balance.
 --]]
-function player.Cash:GiveCash( cashAmount : number )
+function player.Cash:GiveCash( cashAmount : number ) : number
     self.Balance += cashAmount
     return self.Balance
 end
